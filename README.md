@@ -5,7 +5,7 @@ Deployment using streamlit on Heroku.
 Data was collected from Kaggle
 Data shape is 13320 rows and 9 columns.
 
-## EDA-
+## EDA
 
 Column 'total_sqft' was provided in avergare terms i.e 1195 - 1440, converted the same to float by taking the average of the numbers.
 
@@ -22,7 +22,7 @@ We see that there are alot of houses with 5000/- price per square feet rate
 Removal of Data where the number of bathrooms is higher than number of bhk+2
 
 
-## ML MODEL:
+## ML MODEL
 
 
 Performed One hot encoding to represent the categorical values in binary form since machine learning algorithms cannot operate on label data directly.
